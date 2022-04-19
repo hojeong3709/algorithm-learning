@@ -1,11 +1,12 @@
 '''
-stack, python style
+list, python style
+-> stack, queue
 '''
 
 N = int(input())
-a = list(map(int, input().split()))
+a = list(map(float, input().split()))
 
-
+print(N, a)
 
 # stack = list()
 
